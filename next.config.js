@@ -16,7 +16,7 @@ const nextConfig = {
             not: false
           }
         ],
-        permanent: true
+        statusCode: 301
       }
     ]
   }
