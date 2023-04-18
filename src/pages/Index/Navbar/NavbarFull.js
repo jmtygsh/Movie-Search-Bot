@@ -38,7 +38,7 @@ const NavbarFull = () => {
             setTimeout(() => {
                 router.push({
                     pathname: '/Result',
-                    query: { name : getMovies }
+                    query: { name: getMovies }
                 })
             }, 1000);
         }
@@ -47,7 +47,9 @@ const NavbarFull = () => {
     return (
         <div className='hidden lg:flex full-navbar'>
             <div className='relative flex space-between items-center m-auto'>
-                <Image src={Logo} className='w-52 h-28' draggable="false" alt='logo' />
+                <Link href="/">
+                    <Image src={Logo} className='w-52 h-28' draggable="false" alt='logo' />
+                </Link>
                 <div className="text-xl p-10 nav-link">
                     <Link href="/" className='m-10'>Home</Link>
                     <Link href="/pricing" className='m-10'>Pricing</Link>
