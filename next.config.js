@@ -15,8 +15,7 @@ const nextConfig = {
             startsWith: true,
             not: false
           }
-        ],
-        statusCode: 301
+        ]
       }
     ]
   }
