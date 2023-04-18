@@ -3,22 +3,31 @@ const nextConfig = {
   images: {
     domains: ['cdn.tuk.dev'],
   },
-  async rewrites() {
+
+  async redirects() {
     return [
       {
-        source: '/:path*',
-        destination: 'https://dumb-bots.online/:path*',
-        has: [
-          {
-            type: 'host',
-            value: 'www.dumb-bots.online',
-            startsWith: true,
-            not: false
-          }
-        ]
-      }
-    ]
-  }
-}
+        source: 'https://www.dumb-bots.online',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: 'http://www.dumb-bots.online',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: 'https://www.dumb-bots.online/pricing',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: 'http://www.dumb-bots.online/pricing',
+        destination: '/',
+        permanent: true,
+      },
 
+    ]
+  },
+}
 module.exports = nextConfig;
