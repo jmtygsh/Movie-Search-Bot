@@ -94,7 +94,7 @@ const Result = () => {
                         {items.map((item, index) => (
                             <div key={index} className="bg-black text-white rounded-lg ">
                                 <div className="w-full">
-                                    <img src={item.imgUrl} alt="poster" width={300} height={300} className="rounded-t-lg" />
+                                    <img src={item.imgUrl} alt="poster" width={300} height={300} /* eslint-disable-next-line @next/next/no-img-element */ className="rounded-t-lg" />
                                 </div>
                                 <Link href={item.url} target="_blank" rel="noreferrer">
                                     <h3 className='text-xs md:text-base lg:text-base w-9/12 mt-5 p-2'>{item.url.replace(

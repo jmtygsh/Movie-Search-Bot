@@ -56,7 +56,7 @@ const Faq = () => {
 
                 <div className='text-left border-solid border-2 p-5 lg:p-10 rounded-lg  mt-7 mb-24'>
                     <h2 className='text-[18px] lg:text-xl mb-2'><i className='bx bx-file'></i>How to download from <span className='lg:pl-0 pl-3'>dumb-bots?</span></h2>
-                    <p className=' ml-3 text-[15px]'>Our bots only bring the data from various websites that you are looking for, but the download process is handled by third-party websites beacuse we don't host or store any files, Our bots works real time.
+                    <p className=' ml-3 text-[15px]'>Our bots only bring the data from various websites that you are looking for, but the download process is handled by third-party websites beacuse we don&apos;t host or store any files, Our bots works real time.
                     </p>
                 </div>
 
