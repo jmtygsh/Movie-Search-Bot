@@ -22,7 +22,6 @@ export default function Home() {
          `}
         }>
         </script>
-        <h1>hduu</h1>
       </Head>
       <main>
         <Landing />
