@@ -2,16 +2,15 @@ import React, { useState } from "react";
 import { useRouter } from 'next/router'
 import { toast } from 'react-toastify';
 
-
 const SearchEngine = () => {
-	const router = useRouter()
+	const router = useRouter();
 	const [getMovies, setMovies] = useState("");
+	const [category, setCategory] = useState("hollywood");
 
 	const inputMoviesHandler = (e) => {
 		const moviesName = e.target.value;
 		setMovies(moviesName);
 	}
-
 
 	const handleKey = (e) => {
 		if (e.key === 'Enter') {
@@ -29,25 +28,40 @@ const SearchEngine = () => {
 			getMovies === '`' || getMovies === '~' || getMovies === ';' || getMovies === ',' ||
 			getMovies === "'" || getMovies === '"' || getMovies === undefined) {
 			return toast.error('Not allowed');
-		}
-		else {
+		} else {
 			toast('please wait...', {
-                position: "top-center",
-                autoClose: 1000,
-                hideProgressBar: false,
-                closeOnClick: false,
-                pauseOnHover: false,
-                draggable: false,
-                progress: undefined,
-                theme: "light",
-            });
+				position: "top-center",
+				autoClose: 1000,
+				hideProgressBar: false,
+				closeOnClick: false,
+				pauseOnHover: false,
+				draggable: false,
+				progress: undefined,
+				theme: "light",
+			});
 			setTimeout(() => {
-				router.push({
-					pathname: '/Result',
-					query: { name : getMovies }
-				  })
+				if (category === 'hollywood') {
+					router.push({
+						pathname: '/Hollywood',
+						query: { name: getMovies }
+					})
+				} else if (category === 'others') {
+					router.push({
+						pathname: '/Bollywood',
+						query: { name: getMovies }
+					})
+				} else if (category === 'anime') {
+					router.push({
+						pathname: '/Animes',
+						query: { name: getMovies }
+					})
+				}
 			}, 1000);
 		}
+	}
+
+	const handleCategoryChange = (e) => {
+		setCategory(e.target.value);
 	}
 
 	return (
@@ -63,15 +77,33 @@ const SearchEngine = () => {
 							<input type="text" onChange={inputMoviesHandler} onKeyDown={handleKey} required />
 							<label>Search... </label>
 						</div>
-						<button type="submit-btn" className="btn-submit" onClick={submitMoviesNameHanlder}><i className='bx bx-chevron-right'></i>Submit</button>
+						<div className="flex justify-around">
+							<select
+								value={category}
+								onChange={handleCategoryChange}
+								className="block appearance-none w-[40%] bg-white border border-gray-400 hover:border-gray-500 py-2 
+								rounded-[10px] text-center shadow leading-tight focus:outline-none 
+								focus:shadow-outline transition ease-in-out duration-150 mr-3 hover:bg-blue-100 cursor-pointer"
+							>
+								<option value="hollywood" className="text-gray-900"> &#10004; Hollywood</option>
+								<option value="others" className="text-gray-900">&#10004; Bollywood</option>
+								<option value="anime" className="text-gray-900">&#10004; Animes</option>
+
+							</select>
+
+
+							<button type="submit-btn" className="shadow btn-submit" onClick={submitMoviesNameHanlder}>
+								<i className='bx bxs-bot'></i>Search
+							</button>
+						</div>
 						<div className="nothing-link">
 							<p>Don&apos;t know How To Use?&nbsp; scroll down</p>
 						</div>
 					</div>
 				</div>
-			</section>
-		</div>
-	);
-};
+			</section >
+		</div >
+	)
+}
 
 export default SearchEngine;

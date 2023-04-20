@@ -30,7 +30,7 @@ const Landing = () => {
             <section className='mt-10 lg:mt-20'>
                 <div className='hidden lg:flex flex-row justify-evenly mt-10 text-center'>
                     <div className='mt-16'>
-                        <h1 className='text-2xl mb-8 '>Your streaming guide for movies, TV shows & Animes</h1>
+                        <h2 className='text-2xl mb-8 '>Your streaming guide for movies, TV shows & Animes</h2>
                         <h2 className='text-xl mb-5'><i className='bx bxs-movie-play'></i>Explore the World of Cinemas.</h2>
                         <SocialMedia />
                         <p className='hidden lg:block text-base mt-2'>Now it&apos;s Easy To Find where to stream new,<br /> popular & upcoming entertainment with search-tool</p>

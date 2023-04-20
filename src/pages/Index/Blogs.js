@@ -5,7 +5,7 @@ const Blogs = () => {
         <div className='hidden lg:block text-center w-4/5 m-auto mb-40 content-box p-14 '>
             <div >
             <h2 className='text-2xl mb-5'>Do not miss out?</h2>
-                <p className='mb-5'>dumb-bots - is the perfect place to explore all your favorite genres at one place
+                <p className='mb-5'>Dumb-bots - is the perfect place to explore all your favorite genres at one place
 
                     & never miss out your favorite Movies, web-seires & animes With our excellent search capabilities,
                     you can enjoy a seamless viewing experience.

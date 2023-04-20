@@ -45,7 +45,7 @@ const usePricing = () => {
                                 <div className="px-6 py-12 md:px-12">
                                     <div className="flex mb-8">
                                         <div className="flex justify-center items-baseline">
-                                            <span className="mr-2 text-5xl font-bold">$30</span>
+                                            <span className="mr-2 text-5xl font-bold">$35</span>
                                             <span>/lifetime</span>
                                         </div>
                                     </div>

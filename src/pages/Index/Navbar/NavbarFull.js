@@ -8,6 +8,7 @@ import { useRouter } from 'next/router'
 const NavbarFull = () => {
     const router = useRouter()
     const [getMovies, setMovies] = useState("");
+    const [category, setCategory] = useState("hollywood");
 
     function inputMoviesHandler(e) {
         const moviesName = e.target.value;
@@ -36,13 +37,30 @@ const NavbarFull = () => {
         else {
             toast('please wait...')
             setTimeout(() => {
-                router.push({
-                    pathname: '/Result',
-                    query: { name: getMovies }
-                })
+                if (category === 'hollywood') {
+                    router.push({
+                        pathname: '/Hollywood',
+                        query: { name: getMovies }
+                    })
+                } else if (category === 'others') {
+                    router.push({
+                        pathname: '/Bollywood',
+                        query: { name: getMovies }
+                    })
+                } else if (category === 'anime') {
+                    router.push({
+                        pathname: '/Animes',
+                        query: { name: getMovies }
+                    })
+                }
             }, 1000);
         }
     }
+
+    const handleCategoryChange = (e) => {
+        setCategory(e.target.value);
+    }
+
 
     return (
         <div className='hidden lg:flex full-navbar'>
@@ -59,8 +77,20 @@ const NavbarFull = () => {
 
                 <div className='m-auto'>
                     <div className='search-bar'>
-                        <input type="text" placeholder="Search..." className='search-bar-input' onChange={inputMoviesHandler} onKeyDown={handleKey} required />
-                        <button type="submit" onClick={submitMoviesNameHanlder}><i className='bx bx-search'></i></button>
+                        <div className="flex">
+                            <input type="text" placeholder="Search..." className='search-bar-input' onChange={inputMoviesHandler} onKeyDown={handleKey} required />
+                            <select
+                                value={category}
+                                onChange={handleCategoryChange}
+                                className="w-[30%] search-nav-bar
+								text-center focus:outline-none 
+								transition ease-in-out duration-150 cursor-pointer"
+                            >
+                                <option value="hollywood" className="text-gray-900 text-sm"> Hollywood</option>
+                                <option value="others" className="text-gray-900 text-sm">Bollywood</option>
+                                <option value="anime" className="text-gray-900 text-sm">Animes</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
             </div>

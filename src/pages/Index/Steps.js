@@ -72,7 +72,7 @@ const Steps = () => {
                             width={40}
                             height={20} />
                         <div className="mt-10">
-                            <h1 className="text-xl text-center tracking-wide leading-5 font-bold">SignUp for an Account</h1>
+                            <h2 className="text-xl text-center tracking-wide leading-5 font-bold">SignUp for an Account</h2>
                             <h2 className="text-gray-500 mt-3 text-center text-base leading-6 tracking-wide">Sign up on our website and opt for a program that suits you the best .</h2>
                         </div>
                         <div>
@@ -83,8 +83,8 @@ const Steps = () => {
                             width={40}
                             height={20} />
                         <div className="mt-10">
-                            <h1 className="text-xl tracking-wide text-center leading-5 font-bold">Create a Wallet</h1>
-                            <h2 className="text-gray-500 mt-3 pl-3 text-center text-base leading-6 tracking-wide">Create a wallet by linking a payment method that you’re comfortable with. Paypal, Visa and more</h2>
+                            <h2 className="text-xl tracking-wide text-center leading-5 font-bold">Create a Wallet</h2>
+                            <h2 className="text-gray-500 mt-3 pl-3 text-center text-base leading-6 tracking-wide">Create a wallet by linking a payment method that you&apos;re comfortable with. Paypal, Visa and more</h2>
                         </div>
                         <div>
                             <p className="focus:outline-none mt-32"></p>
@@ -94,7 +94,7 @@ const Steps = () => {
                             width={40}
                             height={20} />
                         <div className="flex mt-10 flex-col items-center md:items-start md:w-8/12">
-                            <h1 className="text-xl text-center tracking-wide leading-5 font-bold">Start your Transactions</h1>
+                            <h2 className="text-xl text-center tracking-wide leading-5 font-bold">Start your Transactions</h2>
                             <h2 className="text-gray-500 mt-3 text-center text-base leading-6 tracking-wide">Start transactions right away. No more complicated process for anything else.</h2>
                         </div>
                     </div>

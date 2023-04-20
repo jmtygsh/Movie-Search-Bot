@@ -13,18 +13,17 @@ const privacy = () => {
             <div className='w-3/4 m-auto'>
                 <h1 className='text-2xl text-center mt-10 lg:mt-20 border-b-2'>Privacy Policy</h1>
                 <div>
-                    <h2 className='text-xl mt-10'>Introduction</h2>
+                    <h2 className='text-xl mt-10 mb-5'>Last updated: [20-04-2023]</h2>
                     <p className='text-gray-600'>This page is intended to inform website visitors
                         about our policies regarding the collection,
                         use, and disclosure of Personal Information if they choose to use our Service.<br />
 
                         By using our Service, you agree to the collection but we don&apos;t collect any Personal Information
-                        in accordance with this Privacy Policy.
 
-                        But we do collect email information to provide our service like helping our from any
+                        But we do collect email information to provide our service like helping out from any
                         technical issue etc,
 
-                        We will not share your information with any third parties except as described in this Privacy Policy.</p>
+                        Also, We will not share your information with any third parties except as described in this Privacy Policy.</p>
                 </div>
                 <div className='mt-10'>
                     <h2 className='text-xl'>Information Collection and Use</h2>
@@ -40,6 +39,16 @@ const privacy = () => {
                         your browser from the website you visit and are stored on your device&apos;s hard drive but we don&apos;t
                         now, we are planning to use Cookies in future.
                     </p>
+                </div>
+                <div className='mt-10'>
+                    <h2 className='text-xl'>Security</h2>
+                    <p className='text-gray-600 mb-3'>The security of your Information
+                        is important to us, but remember that no method of 
+                        transmission over the Internet,
+                        or method of electronic storage, is 100% secure.
+                        While we strive to use commercially acceptable means
+                        to protect your Information,
+                        we cannot guarantee its absolute security.</p>
                 </div>
                 <div className='mt-10'>
                     <h2 className='text-xl'>Changes to This Privacy Policy</h2>

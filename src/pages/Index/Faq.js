@@ -25,17 +25,7 @@ const Faq = () => {
                 </div>
 
                 <div className='text-left border-solid border-2 p-5 lg:p-10 rounded-lg mt-7'>
-                    <h2 className='text-[18px] lg:text-xl mb-2'><i className='bx bx-file'></i>How to search anime on <span className='lg:pl-0 pl-3'>dumb-bots?</span></h2>
-                    <p className=' ml-3 text-[15px]'>Dumb-bots are search bots designed to help you find information.
-                        However, at the moment, we do not have a dedicated anime search bots,
-                        which means that some anime titles may not be available.
-                        But we have good news, we are working on adding this feature
-                        to provide you with a better experience. In the meantime,
-                        we kindly ask for your patience.</p>
-                </div>
-
-                <div className='text-left border-solid border-2 p-5 lg:p-10 rounded-lg mt-7'>
-                    <h2 className='text-[18px] lg:text-xl mb-2'><i className='bx bx-file'></i>How to buy dumb-bots <span className='lg:pl-0 pl-3'>script?</span></h2>
+                    <h2 className='text-[18px] lg:text-xl mb-2'><i className='bx bx-file'></i>How to buy dumb-bots <span className='lg:pl-0 pl-3 md:pl-0'>script?</span></h2>
                     <p className=' ml-3 text-[15px]'>We&apos;re excited to announce that you can now purchase dumb-bots
                         through our pricing page. If you encounter any issues with the &apos;Buy Now&apos;
                         button, please don&apos;t hesitate to contact us at devygsh@gmail.com.
@@ -44,7 +34,7 @@ const Faq = () => {
                 </div>
 
                 <div className='text-left border-solid border-2 p-5 lg:p-10 rounded-lg mt-7'>
-                    <h2 className='text-[18px] lg:text-xl mb-2'><i className='bx bx-file'></i>How to provide contribution <span className='lg:pl-0 pl-3'>to dumb-bots?</span></h2>
+                    <h2 className='text-[18px] lg:text-xl mb-2'><i className='bx bx-file'></i>How to provide contribution <span className='lg:pl-0 pl-3 md:pl-0'>to dumb-bots?</span></h2>
                     <p className=' ml-3 text-[15px]'>If you encounter any issues with dumb-bots search result,
                         please don&apos;t hesitate to contact us through our
                         &apos;Contact Us&apos; page. We value your feedback,
@@ -55,7 +45,7 @@ const Faq = () => {
                 </div>
 
                 <div className='text-left border-solid border-2 p-5 lg:p-10 rounded-lg  mt-7 mb-24'>
-                    <h2 className='text-[18px] lg:text-xl mb-2'><i className='bx bx-file'></i>How to download from <span className='lg:pl-0 pl-3'>dumb-bots?</span></h2>
+                    <h2 className='text-[18px] lg:text-xl mb-2'><i className='bx bx-file'></i>How to download from <span className='lg:pl-0 pl-3 md:pl-0'>dumb-bots?</span></h2>
                     <p className=' ml-3 text-[15px]'>Our bots only bring the data from various websites that you are looking for, but the download process is handled by third-party websites beacuse we don&apos;t host or store any files, Our bots works real time.
                     </p>
                 </div>

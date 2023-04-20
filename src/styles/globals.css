@@ -24,11 +24,6 @@
         padding-inline-start: 0;
     }
 
-    /* download icon */
-    .bxs-download {
-        
-    }
-
     /* social logos colors */
     .bx {
         margin: 0px 8px;
@@ -167,12 +162,6 @@
     }
 
 
-    /* search button small*/
-    .btn-search {
-        background-color: #b2daf2;
-    }
-
-
     /* get started button */
     .get-started-btn {
         transition: .3s ease;
@@ -285,7 +274,7 @@
 
 
     .btn-submit {
-        width: 100%;
+        width: 70%;
         height: 40px;
         background: #fde082;
         border: none;
@@ -351,6 +340,16 @@
         border-top-color: #d40000;
         animation: spin 1s ease-in-out infinite;
         margin-right: 10px;
+    }
+
+    .chose-option {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        /* background-color: #b2daf2; */
+    }
+
+    .search-nav-bar {
+        background: transparent;
     }
 
     @keyframes spin {
