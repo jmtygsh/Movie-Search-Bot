@@ -67,7 +67,7 @@ const Search = () => {
                     <select
                         value={category}
                         onChange={handleCategoryChange}
-                        className="w-auto text-xs m-auto py-2 text-center shadow chosen-option transition ease-in-out duration-150 cursor-pointer bg-white rounded-l-md"
+                        className="w-auto text-xs m-auto h-9 text-center bg-gray-50 chosen-option transition ease-in-out duration-150 cursor-pointer rounded-l-md"
                     >
                         <option value="hollywood" className="text-gray-900 text-xs">Hollywood</option>
                         <option value="others" className="text-gray-900 text-xs">Bollywood</option>
@@ -75,7 +75,7 @@ const Search = () => {
                     </select>
                     <input
                         type="text"
-                        className="w-full h-9 pl-3 pr-3 focus:outline-none bg-gray-100"
+                        className="w-full h-9 pl-3 pr-3 focus:outline-none"
                         placeholder="Enter Movies Name..."
                         onChange={inputMoviesHandler}
                         onKeyDown={handleKey}
@@ -83,7 +83,7 @@ const Search = () => {
                     ></input>
                     <button
                         type="submit"
-                        className=" bg-blue-500 text-white rounded-r-md  ml-[-3px] hover:bg-blue-600 transition-colors duration-150 focus:outline-none"
+                        className=" bg-blue-500 h-9 text-white rounded-r-md  ml-[-3px] hover:bg-blue-600 transition-colors duration-150 focus:outline-none"
                         onClick={submitMoviesNameHanlder}
                     >
                         <i className="bx bx-search"></i>
