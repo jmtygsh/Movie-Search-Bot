@@ -67,11 +67,11 @@ const Search = () => {
                     <select
                         value={category}
                         onChange={handleCategoryChange}
-                        className="w-[33px] m-auto py-2 text-center shadow chosen-option transition ease-in-out duration-150 cursor-pointer bg-white rounded-l-md"
+                        className="w-auto text-xs m-auto py-2 text-center shadow chosen-option transition ease-in-out duration-150 cursor-pointer bg-white rounded-l-md"
                     >
-                        <option value="hollywood" className="text-gray-900 text-sm">Hollywood</option>
-                        <option value="others" className="text-gray-900 text-sm ">Bollywood</option>
-                        <option value="anime" className="text-gray-900 text-sm">Animes</option>
+                        <option value="hollywood" className="text-gray-900 text-xs">Hollywood</option>
+                        <option value="others" className="text-gray-900 text-xs">Bollywood</option>
+                        <option value="anime" className="text-gray-900 text-xs">Animes</option>
                     </select>
                     <input
                         type="text"
