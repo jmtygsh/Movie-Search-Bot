@@ -21,7 +21,7 @@ const Landing = () => {
         <div>
             <Header />
             <div className='m-10 text-center w-auto relative '>
-                <h1 className='text-2xl mb-8 lg:hidden'>Your streaming guide for movies TV shows & Animes</h1>
+                <h1 className='text-xl mb-8 lg:hidden font-semibold'>Your streaming guide for movies TV shows & Animes</h1>
                 <Search />
                 <p className='lg:hidden mt-5'>dumb-bots - Just a better place to search movies online for free!</p>
                 <Social />
@@ -30,7 +30,7 @@ const Landing = () => {
             <section className='mt-10 lg:mt-20'>
                 <div className='hidden lg:flex flex-row justify-evenly mt-10 text-center'>
                     <div className='mt-16'>
-                        <h2 className='text-2xl mb-8 '>Your streaming guide for movies, TV shows & Animes</h2>
+                        <h2 className='text-2xl mb-8 font-semibold'>Streaming guide for movies, TV shows & Animes</h2>
                         <h2 className='text-xl mb-5'><i className='bx bxs-movie-play'></i>Explore the World of Cinemas.</h2>
                         <SocialMedia />
                         <p className='hidden lg:block text-base mt-2'>Now it&apos;s Easy To Find where to stream new,<br /> popular & upcoming entertainment with search-tool</p>

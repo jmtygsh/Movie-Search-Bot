@@ -27,7 +27,7 @@ const dmca = () => {
                 <div className='mt-10 mb-10'>
                     <h2 className='text-xl'>Contact Us</h2>
                     <p className='text-gray-600 mb-3'>If you have any questions or suggestions,
-                        <Link href={'/Contact'} className='text-blue-600'>contact us</Link></p>
+                        <Link href={'/Contact-us'} className='text-blue-600'>contact us</Link></p>
                 </div>
             </div>
             <Footer />

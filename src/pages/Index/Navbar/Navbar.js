@@ -6,8 +6,8 @@ const Navbar = () => {
             <div className='navbar-container text-center'>
                 <ul className='navbar'>
                     <li><Link href={'/'}>Home</Link></li>
-                    <li><Link href={'/pricing'}>Pricing</Link></li>
-                    <li><Link href={'/about'}>About Us</Link></li>
+                    <li><Link href={'/Pricing'}>Pricing</Link></li>
+                    <li><Link href={'/About-us'}>About Us</Link></li>
                     <li><Link href={'/Contact'}>Contact Us</Link></li>
                 </ul>
             </div>

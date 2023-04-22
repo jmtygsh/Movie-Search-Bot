@@ -3,9 +3,9 @@ import Image from 'next/image'
 
 const Steps = () => {
     return (
-        <div className="hidden lg:block overflow-y-hidden step-use mb-10 lg:mb-28">
+        <div className="hidden lg:block overflow-y-hidden step-use mb-10 lg:mb-28 w-[80%] m-auto">
             <div className="mx-auto container f-f-p px-4 xl:px-0 py-10">
-                <h2 className="focus:outline-none text-center text-xl lg:text-2xl  lg:leading-9 tracking-wider mb-9">How it works?</h2>
+                <h2 className="focus:outline-none text-center text-xl lg:text-2xl  lg:leading-9 tracking-wider mb-9 font-semibold">How it works?</h2>
                 <div className="md:mt-24 f-f-p">
                     <div className="hidden md:flex justify-center w-full">
                         <div className="flex flex-col items-center md:items-end md:pr-12 md:border-r-4 border-gray-300 relative md:w-1/2">
@@ -33,7 +33,7 @@ const Steps = () => {
                             </div>
 
                             <Image className="hidden md:block absolute right-0 top-0 -mt-2 -mr-1"
-                                 
+
                                 src="https://cdn.tuk.dev/assets/components/111220/Fs7/line.png"
                                 alt='line'
                                 width={4}

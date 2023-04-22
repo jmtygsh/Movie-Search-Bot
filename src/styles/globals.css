@@ -188,10 +188,20 @@
         transition: .3s ease;
     }
 
+    .feature-box-small div {
+        background-color: #b2daf2;
+    }
+
     .feature-box div:hover {
         box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.4);
         opacity: 0.7;
     }
+
+    .feature-box-small div:hover {
+        box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.4);
+        opacity: 0.7;
+    }
+
 
     .buyNow {
         background-color: #b2daf2;

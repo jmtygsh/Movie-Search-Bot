@@ -13,9 +13,11 @@ const Footer = () => {
         <div className='text-sm flex justify-center mt-5 mb-5 lg:text-base'>
           <ul>
             <li className='border-b-2 border-300 mb-5'>Explore links</li>
-            <li className='mb-2'><Link href={'/term'}>Term and Condition</Link></li>
-            <li className='mb-2'><Link href={'/privacy'}>Privacy Policy</Link></li>
-            <li className='mb-2'><Link href={'/dmca'}>DMCA</Link></li>
+            <li className='mb-2'><Link href={'/Term-and-condition'}>Term and Condition</Link></li>
+            <li className='mb-2'><Link href={'/Privacy-policy'}>Privacy Policy</Link></li>
+            <li className='mb-2'><Link href={'/Disclaimer'}>Disclaimer</Link></li>
+            <li className='mb-2'><Link href={'/Dmca'}>DMCA</Link></li>
+           
           </ul>
         </div>
       </footer>

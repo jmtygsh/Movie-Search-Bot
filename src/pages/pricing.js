@@ -20,7 +20,7 @@ const usePricing = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        const data = { subject, email};
+        const data = { subject, email };
 
         emailjs.send('service_0vsxxbo', 'template_ypv2xll', data, 'TRLqncBaYb5sPRRcR')
             .then((result) => {
@@ -173,35 +173,23 @@ const usePricing = () => {
                 </div>
                 <div className='text-center mb-10'>
                     <h3 className='border-b-2 w-10/12 lg:w-2/4 m-auto text-xl lg:text-2xl mb-5'>Technology used are Node js, React js & Next js</h3>
-                    <p className='w-3/4 m-auto text-base lg:text-xl'>Introducing our search bot for movies, web-series & animes, <br />
-                        The ultimate automation that scours various websites
-                        and brings data you need based on your search keywords!<br /><br />
-
+                    <p className='w-11/12 lg:w-3/4 m-auto text-base lg:text-xl'>
+                        Introducing our search bot for movies, web-series & animes, <br />
+                        The ultimate automation that scours various websites and brings data you need based on your search keywords!<br /><br />
                         This powerful tool is a single page application built with React JS, making it lightning fast and ultra-responsive.<br />
-
-                        The script&apos;s primary function is to deploy a headless browser and retrieve all the data
-                        from the selected website based on your search keywords. <br /><br />
-
-                        It&apos;s the perfect solution, <u className='text-red-500'>instead of searching one by one website</u>, use this bots
-                        you <u className='text-red-500'>just need one click </u>and it will show all available data that can download & watch online
-                        so, save your time. <br /><br />
-
-
-                        Remember to identify your target websites and where you want to retrieve data from. but how?
-                        <br />
-                        Worry not we&apos;ve got you covered! Our blogs section contains all the information you need,
-                        or you can simply click here to access the documentation.
-
-                        <br /><br />
-                        So, what are you waiting for? Dive in and start experiencing the power of our search bot today! But remember,
-                        it&apos;s essential to read the documentation thoroughly before initializing the script. <u className='text-red-500'> Node </u>you must read the document before you begin.
-                        <br /></p>
+                        The script&apos;s primary function is to deploy a headless browser and retrieve all the data from the selected website based on your search keywords. <br /><br />
+                        It&apos;s the perfect solution, <u className='text-red-500'>instead of searching one by one website</u>, use this bots you <u className='text-red-500'>just need one click</u> and it will show all available data that can download & watch online, so save your time. <br /><br />
+                        Remember to identify your target websites and where you want to retrieve data from, but how?<br />
+                        Worry not we&apos;ve got you covered! Our blogs section contains all the information you need, or you can simply click here to access the documentation.<br /><br />
+                        So, what are you waiting for? Dive in and start experiencing the power of our search bot today! But remember, it&apos;s essential to read the documentation thoroughly before initializing the script. <u className='text-red-500'> Node </u> you must read the document before you begin.<br />
+                    </p>
                     <h3 className='border-b-2 w-10/12 lg:w-2/4 m-auto text-xl lg:text-2xl mt-10 mb-5'>Got a technical issue? Let us know please...</h3>
-                    <p className='w-3/4 m-auto text-base lg:text-xl mb-5'>Don&apos;t worry! if you facing any kind of error just contact us, We will there for you to solve your problem till your website working fine.
-                        However, we will check your order key so, take screenshot or copy it.</p>
-                    <code className='bg-gray-300 p-4 rounded-md text-base lg:text-xl'>devygsh@gmail.com</code>
-
+                    <p className='w-11/12 lg:w-3/4 m-auto text-base lg:text-xl mb-5'>
+                        Don&apos;t worry! If you are facing any kind of error, just contact us, we will be there for you to solve your problem till your website is working fine. However, we will check your order key, so take a screenshot or copy it.
+                    </p>
+                    <code className='block bg-gray-300 p-4 rounded-md text-base lg:text-xl mx-auto my-5 lg:my-10 w-11/12 lg:w-3/4'>devygsh@gmail.com</code>
                 </div>
+
             </div>
             <Footer />
         </div>

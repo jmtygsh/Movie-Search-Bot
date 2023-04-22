@@ -12,33 +12,38 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://dumb-bots.online/pricing</loc>
-  <lastmod>2023-04-10T14:45:33+00:00</lastmod>
+  <loc>https://dumb-bots.online/Pricing</loc>
+  <lastmod>2023-04-22T14:45:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://dumb-bots.online/about</loc>
-  <lastmod>2023-04-10T14:45:33+00:00</lastmod>
+  <loc>https://dumb-bots.online/About-us</loc>
+  <lastmod>2023-04-22T14:45:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://dumb-bots.online/Contact</loc>
-  <lastmod>2023-04-10T14:45:33+00:00</lastmod>
+  <loc>https://dumb-bots.online/Contact-us</loc>
+  <lastmod>2023-04-22T14:45:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://dumb-bots.online/term</loc>
-  <lastmod>2023-04-10T14:45:33+00:00</lastmod>
+  <loc>https://dumb-bots.online/Term-and-condition</loc>
+  <lastmod>2023-04-22T14:45:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://dumb-bots.online/privacy</loc>
-  <lastmod>2023-04-10T14:45:33+00:00</lastmod>
+  <loc>https://dumb-bots.online/Privacy-policy</loc>
+  <lastmod>2023-04-22T14:45:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://dumb-bots.online/dmca</loc>
-  <lastmod>2023-04-10T14:45:33+00:00</lastmod>
+  <loc>https://dumb-bots.online/Disclaimer</loc>
+  <lastmod>2023-04-22T14:45:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dumb-bots.online/Dmca</loc>
+  <lastmod>2023-04-22T14:45:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 </urlset>

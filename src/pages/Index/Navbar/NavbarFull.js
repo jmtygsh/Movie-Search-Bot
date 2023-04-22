@@ -69,10 +69,10 @@ const NavbarFull = () => {
                     <Image src={Logo} className='w-52 h-28' draggable="false" alt='logo' />
                 </Link>
                 <div className="text-xl p-10 nav-link">
-                    <Link href="/" className='m-10'>Home</Link>
-                    <Link href="/pricing" className='m-10'>Pricing</Link>
-                    <Link href="/about" className='m-10'>About Us</Link>
-                    <Link href="/Contact" className='m-10'>Contact Us</Link>
+                    <Link href="/" className='m-9'>Home</Link>
+                    <Link href="/Pricing" className='m-9'>Pricing</Link>
+                    <Link href="/About-us" className='m-9'>About Us</Link>
+                    <Link href="/Contact-us" className='m-9'>Contact Us</Link>
                 </div>
 
                 <div className='m-auto'>
