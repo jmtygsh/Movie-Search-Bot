@@ -9,6 +9,9 @@ const about = () => {
     <div>
       <Head>
         <title>About us - dumb-bots </title>
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" />
+        <meta name="description" content="Meet our author of this amazing script and read about us, thank you" />
+        <meta charset="UTF-8"></meta>
       </Head>
       <Header />
       <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">

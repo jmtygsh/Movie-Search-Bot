@@ -77,7 +77,10 @@ const Bollywood = () => {
     return (
         <div>
             <Head>
-                <title>Results - dumb-bots </title>
+                <title>Bollywood Results - dumb-bots </title>
+                <meta name="description" content="Just type the name of the keyword that you are looking for and get all the Bollywood movies and web series result in one place " />
+                <meta charset="UTF-8"></meta>
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
             <Header />
             <div className="text-center mt-5 w-10/12 m-auto">

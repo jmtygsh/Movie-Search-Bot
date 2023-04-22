@@ -33,8 +33,10 @@ const usePricing = () => {
     return (
         <div>
             <Head>
-                <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" />
                 <title>Pricing - dumb-bots </title>
+                <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" />
+                <meta name="description" content="Now you can buy this amazing search bot for movies, web series, and animes" />
+                <meta charset="UTF-8"></meta>
             </Head>
             <Header />
             <div className="container my-10 lg:my-24 px-6 mx-auto">

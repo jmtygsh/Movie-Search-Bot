@@ -27,6 +27,9 @@ const Contact = () => {
         <div>
             <Head>
                 <title>Contact Us - dumb-bots </title>
+                <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0" />
+                <meta name="description" content="If you got any technical issue? or anything so, please feel free to contact us." />
+                <meta charset="UTF-8"></meta>
             </Head>
             <Header />
             <section>

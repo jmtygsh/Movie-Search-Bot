@@ -7,10 +7,10 @@ export default function Home() {
       <Head>
         <title>Explore world of cinema - dumb-bots</title>
         <meta name="application-name" content="dumb-bots"></meta>
-        <meta name="description" content="Your streaming guide for movies, TV shows & Animes with dumb-bots." />
+        <meta name="description" content="Your streaming guide for movies, TV shows & Animes with dumb-bots so what are you waiting for now you can get all at one place." />
+        <meta charset="UTF-8"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-3072T6W158"></script>
         <script dangerouslySetInnerHTML={
           {
