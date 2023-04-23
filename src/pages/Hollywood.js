@@ -106,7 +106,7 @@ const Hollywood = () => {
                                 </div>
                                 <Link href={item.url} target="_blank" rel="noreferrer">
                                     <h3 className='text-xs md:text-base lg:text-base w-9/12 mt-5 p-2'>{item.url.replace(
-                                        /https:\/\/moviesmod\.net\.in\/|https:\/\/hdhub4u\.report\//g, "")
+                                        /https:\/\/vegamovies.party\/|https:\/\/hdhub4u\.report\/\//g, "")
                                         .toUpperCase()}
                                     </h3>
                                 </Link>
