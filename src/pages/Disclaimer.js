@@ -1,7 +1,6 @@
 import React from 'react'
 import Header from './Index/Header'
 import Footer from './Index/Footer'
-import Link from 'next/link'
 import Head from 'next/head'
 
 const Disclaimer = () => {

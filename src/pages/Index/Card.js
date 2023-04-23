@@ -32,13 +32,13 @@ function Card() {
             <div className='text-center mb-14 mt-14 w-[80%] m-auto block lg:hidden'>
                 <h2 className='text-xl font-semibold'>Find all movies, tv-shows & animes in one place</h2>
                 <div class="feature-box-small flex flex-row flex-wrap justify-center lg:mt-8 mt-4">
-                    <div class="bg-blue-500 text-base w-full md:w-auto h-12 bg-transparent border border-black rounded-md flex justify-center items-center m-3 transition duration-300 ease">
+                    <div class="bg-blue-500 text-base w-full md:w-auto h-12 bg-transparent border border-black rounded-md flex justify-center items-center m-3 transition duration-300 ease md:p-[10px]">
                         <p>&#10004; Free to use</p>
                     </div>
-                    <div class="text-base w-full md:w-auto h-12 bg-transparent border border-black bg-blue-200 rounded-md flex justify-center items-center m-3 transition duration-300 ease">
+                    <div class="text-base w-full md:w-auto h-12 bg-transparent border border-black bg-blue-200 rounded-md flex justify-center items-center m-3 transition duration-300 ease md:p-[10px]">
                         <p>&#10004; Available to download</p>
                     </div>
-                    <div class="text-base w-full md:w-auto h-12 bg-transparent border border-black bg-blue-200 rounded-md flex justify-center items-center m-3 transition duration-300 ease">
+                    <div class="text-base w-full md:w-auto h-12 bg-transparent border border-black bg-blue-200 rounded-md flex justify-center items-center m-3 transition duration-300 ease md:p-[10px]">
                         <p>&#10004; Search tool</p>
                     </div>
                 </div>

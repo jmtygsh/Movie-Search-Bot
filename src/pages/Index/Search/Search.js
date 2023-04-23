@@ -62,12 +62,12 @@ const Search = () => {
 
     return (
         <div className="sg">
-            <div className="lg:hidden flex flex-row justify-center items-center shadow-lg border-b-[1px] border-black rounded-[5px]">
+            <div className="lg:hidden flex flex-row justify-center items-center shadow-md border-b-[1px] border-black rounded-[5px]">
                 <div className="flex justify-center w-full">
                     <select
                         value={category}
                         onChange={handleCategoryChange}
-                        className="w-auto text-xs m-auto h-9 text-center bg-gray-50 chosen-option transition ease-in-out duration-150 cursor-pointer rounded-l-md"
+                        className="w-auto text-xs m-auto h-9 md:h-[3rem] text-center bg-gray-50 chosen-option transition ease-in-out duration-150 cursor-pointer rounded-l-md"
                     >
                         <option value="hollywood" className="text-gray-900 text-xs">Hollywood</option>
                         <option value="others" className="text-gray-900 text-xs">Bollywood</option>
@@ -75,7 +75,7 @@ const Search = () => {
                     </select>
                     <input
                         type="text"
-                        className="w-full h-9 pl-3 pr-3 focus:outline-none"
+                        className="w-full h-9 md:h-[3rem] pl-3 pr-3 focus:outline-none"
                         placeholder="Enter Movies Name..."
                         onChange={inputMoviesHandler}
                         onKeyDown={handleKey}
@@ -83,7 +83,7 @@ const Search = () => {
                     ></input>
                     <button
                         type="submit"
-                        className=" bg-blue-500 h-9 text-white rounded-r-md  ml-[-3px] hover:bg-blue-600 transition-colors duration-150 focus:outline-none"
+                        className=" bg-blue-500 h-9 md:h-[3rem] md:p-[14px] text-white rounded-r-md  ml-[-3px] hover:bg-blue-600 transition-colors duration-150 focus:outline-none"
                         onClick={submitMoviesNameHanlder}
                     >
                         <i className="bx bx-search"></i>
