@@ -11,6 +11,9 @@ export default function Home() {
         <meta charset="UTF-8"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="canonical" href="https://dumb-bots.online/"></link>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8526703730767941"
+          crossorigin="anonymous"></script>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-3072T6W158"></script>
         <script dangerouslySetInnerHTML={
           {
