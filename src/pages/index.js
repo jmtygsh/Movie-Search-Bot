@@ -11,6 +11,7 @@ export default function Home() {
         <meta charset="UTF-8"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+        <meta name='dmca-site-verification' content='clZhclRiZXpNRGFrRDlWMDk4enMzNUJRSXpLc0dnejlCVnhZK2V1RHg5UT01' />
         <link rel="canonical" href="https://dumb-bots.online/"></link>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8526703730767941"
           crossorigin="anonymous"></script>
