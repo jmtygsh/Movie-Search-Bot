@@ -33,6 +33,8 @@ const dmca = () => {
                     <p>
                         <Protection/>
                     </p>
+                    Even do we have apply for Protection but an individual person can not able to purchase pro plan for more security and complete protention but 
+                    i still hope it will enough for now.
                 </div>
                 <div className='mt-10 mb-10'>
                     <h2 className='text-xl'>Contact Us</h2>
