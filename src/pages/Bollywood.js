@@ -112,7 +112,7 @@ const Bollywood = () => {
                                 </div>
                                 <Link href={item.url} target="_blank" rel="noreferrer">
                                     <h3 className='text-xs md:text-base lg:text-base w-9/12 mt-5 p-2'>{item.url.replace(
-                                        /https:\/\/hdmovie2\.tools\/|https:\/\/topmovies\.live\//g, "")
+                                        /https:\/\/hdmovie2\.tools\/|https:\/\/topmovies\.one\//g, "")
                                         .toUpperCase()}
                                     </h3>
                                 </Link>
